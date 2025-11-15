@@ -76,6 +76,7 @@ import axios from 'axios';
 // --- THE TOKEN KEY IS NOW 'admin_token' ---
 const TOKEN_KEY = 'admin_token';
 
+//axios.defaults.baseURL = 'https://tcc-backend-d9bn.onrender.com';
 // 1. Set up Axios to use the correct token
 axios.interceptors.request.use(
   (config) => {

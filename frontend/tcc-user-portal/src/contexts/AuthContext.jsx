@@ -99,7 +99,8 @@ const TOKEN_KEY = 'user_token';
 
 // 1. Create a shared Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api' // Your backend URL
+  baseURL: 'http://localhost:5000/api'
+ // Your backend URL
 });
 
 // 2. Set up Axios interceptor to add the token to every request
