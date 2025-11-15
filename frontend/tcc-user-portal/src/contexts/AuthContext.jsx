@@ -99,7 +99,8 @@ const TOKEN_KEY = 'user_token';
 
 // 1. Create a shared Axios instance
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  //baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://tcc-backend-d9bn.onrender.com'
  // Your backend URL
 });
 
