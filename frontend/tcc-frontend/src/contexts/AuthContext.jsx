@@ -1,5 +1,3 @@
-/*
-
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import axios from 'axios';
@@ -66,7 +64,6 @@ export const AuthProvider = ({ children }) => {
 };
 
 
-*/
 
 /*
 // src/contexts/AuthContext.jsx
@@ -156,6 +153,8 @@ export const AuthProvider = ({ children }) => {
 // frontend/tcc-frontend/src/contexts/AuthContext.jsx
 // (Full Code - REPLACE YOURS)
 
+/*
+
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import axios from 'axios';
@@ -240,3 +239,5 @@ export const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 };
+
+*/
